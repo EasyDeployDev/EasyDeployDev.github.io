@@ -8,18 +8,38 @@
       name="description"
       content="EasyDeploy builds focused developer tooling under the EasyDeployDev organization."
     />
+    <meta name="theme-color" content="#13231a" />
+    <meta property="og:title" content="EasyDeploy" />
+    <meta
+      property="og:description"
+      content="Focused developer tooling under the EasyDeployDev organization."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://easydeploydev.github.io/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://easydeploydev.github.io/" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="page-shell">
       <header class="hero">
-        <p class="eyebrow">EasyDeploy</p>
+        <div class="topbar">
+          <a class="brand" href="./">EasyDeploy</a>
+          <nav class="topnav" aria-label="Primary">
+            <a href="https://github.com/EasyDeployDev">GitHub</a>
+            <a href="https://github.com/EasyDeployDev/bnfn">bnfn</a>
+            <a href="https://github.com/EasyDeployDev/bnfn/discussions">Discussions</a>
+          </nav>
+        </div>
+
+        <p class="eyebrow">EasyDeployDev</p>
         <h1>Focused developer tooling, shipped with less friction.</h1>
         <p class="lede">
           EasyDeploy publishes practical tools under
           <a href="https://github.com/EasyDeployDev">EasyDeployDev</a>. The
-          current public project is <a href="https://github.com/EasyDeployDev/bnfn">bnfn</a>,
-          a Bun-native HTTP client with a required Zig acceleration layer.
+          current public project is
+          <a href="https://github.com/EasyDeployDev/bnfn">bnfn</a>, a Bun-native
+          HTTP client with a required Zig acceleration layer.
         </p>
         <div class="hero-actions">
           <a class="button button-solid" href="https://github.com/EasyDeployDev"
@@ -28,11 +48,14 @@
           <a class="button button-ghost" href="https://github.com/EasyDeployDev/bnfn"
             >Open bnfn</a
           >
+          <a class="button button-ghost" href="https://github.com/EasyDeployDev/bnfn/discussions"
+            >Join Discussions</a
+          >
         </div>
       </header>
 
       <main>
-        <section class="panel grid two-up">
+        <section class="panel grid two-up" id="bnfn">
           <article class="card">
             <p class="section-label">Featured Project</p>
             <h2>bnfn</h2>
@@ -50,12 +73,16 @@
 
           <article class="card accent-card">
             <p class="section-label">Current State</p>
-            <h2>Live and verified</h2>
+            <h2>Integrated and live</h2>
             <p>
-              The local build, tests, type checks, and package artifact were
-              verified before publication.
+              The organization profile, Pages site, and primary repository are now
+              cross-linked and publicly reachable from a single entry point.
             </p>
             <dl class="stats">
+              <div>
+                <dt>Website</dt>
+                <dd><a href="https://easydeploydev.github.io/">easydeploydev.github.io</a></dd>
+              </div>
               <div>
                 <dt>Primary repo</dt>
                 <dd><a href="https://github.com/EasyDeployDev/bnfn">EasyDeployDev/bnfn</a></dd>
@@ -68,10 +95,45 @@
               </div>
               <div>
                 <dt>Discord</dt>
-                <dd>Invite link coming when the EasyDeploy server is live</dd>
+                <dd>Invite link will be published here when the community server is live</dd>
               </div>
             </dl>
           </article>
+        </section>
+
+        <section class="panel">
+          <div class="section-header">
+            <p class="section-label">Public Surfaces</p>
+            <h2>One public graph instead of separate islands</h2>
+          </div>
+          <div class="grid three-up">
+            <article class="card">
+              <h3>Website</h3>
+              <p>
+                The Pages site acts as the front door for the organization and
+                points directly to live repositories and discussions.
+              </p>
+              <a class="text-link" href="https://easydeploydev.github.io/">Open website</a>
+            </article>
+            <article class="card">
+              <h3>GitHub organization</h3>
+              <p>
+                The organization profile and repositories stay aligned so GitHub
+                remains the canonical source for code and public collaboration.
+              </p>
+              <a class="text-link" href="https://github.com/EasyDeployDev">Open organization</a>
+            </article>
+            <article class="card">
+              <h3>Repository community</h3>
+              <p>
+                `bnfn` issues and discussions are exposed consistently across the
+                profile, the repo, and the website.
+              </p>
+              <a class="text-link" href="https://github.com/EasyDeployDev/bnfn/discussions"
+                >Open discussions</a
+              >
+            </article>
+          </div>
         </section>
 
         <section class="panel">
@@ -107,15 +169,28 @@
         <section class="panel callout">
           <div>
             <p class="section-label">Start Here</p>
-            <h2>Explore the organization or jump straight into the repo.</h2>
+            <h2>Use the website, GitHub org, and repo docs as one connected surface.</h2>
           </div>
           <div class="link-stack">
+            <a href="https://easydeploydev.github.io/">easydeploydev.github.io</a>
             <a href="https://github.com/EasyDeployDev">github.com/EasyDeployDev</a>
             <a href="https://github.com/EasyDeployDev/bnfn">github.com/EasyDeployDev/bnfn</a>
-            <a href="https://github.com/EasyDeployDev/bnfn/issues">github.com/EasyDeployDev/bnfn/issues</a>
+            <a href="https://github.com/EasyDeployDev/bnfn/discussions"
+              >github.com/EasyDeployDev/bnfn/discussions</a
+            >
           </div>
         </section>
       </main>
+
+      <footer class="site-footer">
+        <span>EasyDeploy</span>
+        <div class="footer-links">
+          <a href="https://easydeploydev.github.io/">Website</a>
+          <a href="https://github.com/EasyDeployDev">GitHub</a>
+          <a href="https://github.com/EasyDeployDev/bnfn">bnfn</a>
+          <a href="https://github.com/EasyDeployDev/bnfn/issues">Issues</a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
